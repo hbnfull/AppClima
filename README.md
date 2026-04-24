@@ -30,3 +30,42 @@ Instalar dependencias:
 ```bash
 pip install requests
 ```
+
+⚠️ Manejo de Errores
+
+La aplicación contempla:
+
+Ciudad no encontrada
+Entrada vacía
+Fallos en la API o conexión
+
+Mostrando mensajes claros para el usuario.
+
+🧪 Pruebas
+
+Se realizaron pruebas básicas:
+
+Entrada válida (ej. "Tokyo")
+Entrada inválida (ej. "asdasd123")
+Entrada vacía ("")
+🤖 Uso de IA
+
+Durante el desarrollo se utilizó IA para:
+
+Generar código base
+Detectar errores
+Mejorar validaciones y estructura
+Generar documentación
+
+Todas las sugerencias fueron revisadas antes de implementarse.
+
+🔒 Seguridad y Buenas Prácticas
+No se exponen claves sensibles
+Validación de entradas
+Manejo de errores robusto
+Revisión de código generado por IA
+📌 Mejoras Futuras
+Interfaz gráfica o web
+Implementación de caché
+Más variables climáticas (humedad, precipitación)
+Optimización de llamadas a la API
